@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: pink; 
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: pink;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: pink;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.pokemon {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: white;
+  width: 300px;
+}
+
+.pokemon img {
+  width: 100px;
+  height: 100px;
+}
+
+.pokemon h2 {
+  text-transform: capitalize;
+}
